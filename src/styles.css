@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App-header {
+  background-color: yellow;
+}
+body {
+  background-image: url("");
+  background-color: violet;
+}
+.home {
+  background-color: aqua;
+}
+
+.about {
+  background-color: red;
+}
+
+.contact {
+  background-color: orangered;
+}
+.Zoom {
+  padding: 40px;
+  background-color: rgb(0, 2, 128);
+  transition: transform 0.2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.Zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}

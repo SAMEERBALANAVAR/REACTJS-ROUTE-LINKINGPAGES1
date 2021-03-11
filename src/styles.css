@@ -23,7 +23,7 @@ body {
 .Zoom {
   padding: 40px;
   background-color: rgb(0, 2, 128);
-  transition: transform 0.2s;
+  transition: transform 0.4s;
   width: 200px;
   height: 200px;
   margin: 0 auto;
